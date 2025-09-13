@@ -6,7 +6,7 @@
 
 ## 🌟 Overview
 
-TAXILOG UK is a modern, full-stack platform offering seamless taxi booking services and property management. Built with React and Node.js, it provides an intuitive interface for both users and administrators.
+Fleet Management System is a modern, full-stack platform offering seamless car, taxi booking services and property management. Built frontend with React, it provides an intuitive interface for both users and administrators.
 
 ## ⚡ Quick Start
 
