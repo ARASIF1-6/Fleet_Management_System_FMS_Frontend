@@ -1,94 +1,76 @@
-![alt text](public/image/taxilogUk.png)
+![Fleet Management System](public/image/taxilogUk.png)
 
-<!--
-<p align="center">
-  <img src="https://prnt.sc/W5h59mB49Rgi" alt="TAXILOG UK Preview" width="100%" />
-</p> -->
+# 🚖 Fleet Management System
 
-# 🚖 TAXILOG UK
+> Your ultimate car, taxi booking and property management platform.
 
-> **Your ride, your way. Explore, book, and manage taxi rides & property listings across the UK.**
+## 🌟 Overview
 
-**TAXILOG UK** is a modern, full-stack platform designed to help users find rental properties and book taxi rides effortlessly. It features seamless authentication, role-based access, subscription payments, and a rich user/admin dashboard.
+TAXILOG UK is a modern, full-stack platform offering seamless taxi booking services and property management. Built with React and Node.js, it provides an intuitive interface for both users and administrators.
 
----
+## ⚡ Quick Start
 
-## 🌐 Live Demo
+```bash
+# Install dependencies
+npm install
 
-- 🔗 [Live Project](https://ornate-mousse-4779cd.netlify.app/)
+# Run development server
+npm run dev
 
-- 📁 [GitHub Repository](https://github.com/MTS-Services/panthertaxis-frontend)
-
-- 📁 [GitHub developer](https://github.com/shakilmonsi)
-
----
+# Build for production
+npm run build
+```
 
 ## 🛠️ Tech Stack
 
-### 💻 Frontend
+### Frontend
+- ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- ![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
+- ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+- ![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
 
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Redux](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
-![Axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)
-![i18next](https://img.shields.io/badge/i18next-26A69A?style=for-the-badge&logo=i18next&logoColor=white)
-![React Toastify](https://img.shields.io/badge/Toastify-FFE484?style=for-the-badge&logo=react-toastify&logoColor=black)
+## 🎯 Key Features
 
-### 🧪 Backend
+- 🔐 Secure Authentication & Authorization
+- 👤 User Dashboard
+  - Profile Management
+  - Booking History
+  - Saved Properties
+- 👑 Admin Dashboard
+  - User Management
+  - Property Overview
+  - Booking Analytics
+- 💳 Stripe Payment Integration
+- 🌍 Multi-language Support
+- 📱 Responsive Design
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
-![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=for-the-badge&logo=prisma&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+## 🗂️ Project Structure
 
-### 🔐 Authentication
+```
+src/
+├── assets/          # Static assets
+├── components/      # Reusable components
+├── layout/          # Layout templates
+├── pages/          # Page components
+├── router/         # Route configurations
+└── utils/          # Utility functions
+```
 
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-![LocalStorage](https://img.shields.io/badge/Local_Storage-FF9900?style=for-the-badge&logo=html5&logoColor=white)
+## 💡 Environment Variables
 
-### 💳 Payments
+```env
+VITE_API_URL=your_api_url
+VITE_STRIPE_KEY=your_stripe_key
+```
 
-![Stripe](https://img.shields.io/badge/Stripe-008CDD?style=for-the-badge&logo=stripe&logoColor=white)
-![Stripe CLI](https://img.shields.io/badge/Stripe_CLI-635BFF?style=for-the-badge&logo=stripe&logoColor=white)
+## 📜 Git Commit Convention
 
-### 🚀 Deployment
-
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
-![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)
-
----
-
-## ✨ Features
-
-### 🎉 General
-
-- ⚡ Fast, responsive UI
-- 💳 Stripe subscription support
-- 🌍 EN/NL language toggle (i18next)
-- 🔍 Browse and filter rental properties
-- 🖼️ Property details with image gallery
-- 💾 User dashboard with saved items
-
-### 🔐 Auth & Roles
-
-- JWT-based login/register
-- Role-based access (Admin/User)
-
-### 👤 User Dashboard
-
-- Edit personal profile
-- View booking history
-- Add/remove favorites
-
-### 👑 Admin Dashboard
-
-- Admin profile management
-- View & manage property history
-- View users in table format
-
----
-
-## 📂 Folder Structure
-
-### `public/`
+| Type | Description |
+|------|-------------|
+| feat | New feature |
+| fix | Bug fix |
+| docs | Documentation |
+| style | Formatting |
+| refactor | Code restructuring |
+| test | Testing |
+| chore | Maintenance |
